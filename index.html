@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="main-div">
+        <div class="search">
+            <input type="text" id="search-country" placeholder="Search country to get stats">
+            <button>🔎</button>
+        </div>
+        <div class="parent-div">
+            <div class="child-div">
+                <h2>Stats for <span id="country">Country</span>
+                <img src="#" alt="" id="flag">
+                </h2>
+                <div class="stats">
+                    <div>Total Cases : <span id="cases"></span></div>
+                    <div>Cases Today : <span id="todayCases"></span></div>
+                    <div>Recovered Today : <span id="todayRecovered"></span></div>
+                    <div>Deaths Today : <span id="todayDeaths"></span></div>
+                    <div>Recovered : <span id="recovered"></span></div>
+                    <div>Critical : <span id="critical"></span></div>
+                    <div>Total Deaths : <span id="deaths"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

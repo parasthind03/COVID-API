@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-div{
+    height: 100vh;
+    width: 100vw;
+    background: url('./covid-19-ce.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-country{
+    width: 350px;
+    height: 40px;
+    background: #fff;
+    color: #333;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    box-shadow: none;
+    padding: 0 15px;
+    font-size: 1.1rem;
+    display: flex;
+}
+
+button {
+    margin: 0.5rem;
+    border-radius: 7px;
+    width: 2.25rem;
+    border: none;
+    height: 2.5rem;
+    background:#fff;
+    color: #222;
+  }
+  
+  button:hover {
+    background: rgba(225, 225, 225, 0.6);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+
+.parent-div{
+    display: grid;
+    place-items: center;
+    height: 70vh;
+}
+
+.parent-div .child-div{
+    height: 390px;
+    width: 420px;
+    background-color: rgba(3, 3, 3, 0.8);
+    border-radius: 7px;
+    color: #fff;
+}
+
+.child-div h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.child-div #flag{
+    height: 50px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 3px;
+}
+
+.stats div:nth-child(n){
+    padding: 2%;
+    margin-left: 2%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.stats div:nth-child(1){
+    padding-top: 10%;
+}
+
+
+
+
